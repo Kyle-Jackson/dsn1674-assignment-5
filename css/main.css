@@ -24,6 +24,11 @@ body {
   margin:0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .inset-left {
   float: left;
   width: 7%;
@@ -74,10 +79,6 @@ li {
   border: solid 1px #cccccc;
 }
 
-p {
-  margin: 1em 0.5em;
-}
-
 .p2 {
   float: left;
 }
@@ -93,7 +94,62 @@ p {
 .inset-right-3 {
   float: right;
   width: 40%;
-  margin: 0.25em 0.5em 0.25em 0.5em;
+  margin: 0.25em 0.5em 0.5em 0.5em;
   clear: right;
   border: solid 1px #cccccc;
+}
+
+h2 {
+  background-color: #d98156;
+  text-align: center;
+  color: #fff;
+  padding: 0.75em;
+  clear: both;
+  width: 100%;
+  margin: 19.920px 0 0 0;
+}
+
+.inset-full {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+p i {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: #d98156;
+  color: #fff;
+  margin: 0;
+}
+
+.inset-left-3 {
+  float: left;
+  width: 50%;
+  clear: left;
+}
+
+.inset-right-4 {
+  float: right;
+  width: 50%;
+  clear: right;
+}
+
+i {
+  clear: both;
+  padding: 0 0 1.25em 0;
+}
+
+.rice {
+  float: left;
+  width: 50%;
+  clear: left;
+  padding: 0;
+}
+
+.oats {
+  float: right;
+  width: 50%;
+  clear: right;
 }
