@@ -128,21 +128,27 @@ h2 {
 }
 
 .inset-left-3 {
-  float: left;
   width: 25%;
-  margin: 1em 0.5em;
+  float: left;
+  clear: left;
+  border: 1px solid grey;
+  margin: 4em 1em 1em 1em;
 }
 
 .inset-left-4 {
-  float: left;
   width: 25%;
-  margin: 1em 0.5em;
+  float: left;
+  clear: left;
+  border: 1px solid grey;
+  margin: 1em;
 }
 
 .inset-left-5 {
-  float: left;
   width: 25%;
-  margin: 1em 0.5em;
+  float: left;
+  clear: left;
+  border: 1px solid grey;
+  margin: 1em;
 }
 
 .corncap {
@@ -153,8 +159,6 @@ padding: 0;
 margin: 0;
 }
 
-h3 {
-  color: black;
 }
 
 .caption {
@@ -164,10 +168,26 @@ h3 {
 .ricecap {
   float: left;
   width: 50%;
-
 }
 
 .oatscap {
   float: right;
   width: 50%;
+}
+
+.captioncorn {
+  background-color: #d98156;
+}
+
+.corncap {
+  float: left;
+  width: 100%;
+}
+
+footer {
+  background-color: #cd5b34;
+  clear: both;
+  text-align: center;
+  padding: 1.25em;
+  color: #e6ad99;
 }
